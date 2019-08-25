@@ -1,0 +1,62 @@
+{
+  "name": "storybook-addon-react-dev-tools",
+  "version": "1.0.3",
+  "description": "Storybook add on that implements the react dev tool for your stories",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli && node ./scripts/copyFiles.js",
+    "publish": "npm publish ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wizyma/storybook-addon-react-dev-tool.git"
+  },
+  "keywords": [
+    "React",
+    "Javscript",
+    "ReactDevTools",
+    "DevTools"
+  ],
+  "author": "André Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wizyma/storybook-addon-react-dev-tool/issues"
+  },
+  "homepage": "https://github.com/Wizyma/storybook-addon-react-dev-tool#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/register": "^7.5.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@storybook/addons": "^5.1.11",
+    "@storybook/core-events": "^5.1.11",
+    "@types/babel__core": "^7.1.2",
+    "@types/node": "^12.7.2",
+    "@types/ramda": "^0.26.19",
+    "@types/react": "^16.9.2",
+    "delay": "^4.3.0",
+    "ramda": "^0.26.1",
+    "react": "^16.9.0",
+    "react-devtools-core": "^3.6.3",
+    "react-devtools-inline": "^4.0.0-alpha.8",
+    "scheduler": "^0.15.0"
+  }
+}

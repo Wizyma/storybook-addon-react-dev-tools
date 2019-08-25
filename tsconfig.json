@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "types": ["node", "@types/react"],
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "target": "es2015",
+    "module": "es6",
+    "importHelpers": true,
+    "declarationDir": "build/@types",
+    "lib": ["es5", "es6", "es7", "es2017", "dom", "es2015"],
+    "allowJs": false,
+    "jsx": "react",
+    "outDir": "build/lib",
+    "moduleResolution": "node",
+    "rootDirs": ["src", "__stories__"],
+    "baseUrl": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "skipLibCheck": true,
+    "build": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "scripts", "dist"]
+}

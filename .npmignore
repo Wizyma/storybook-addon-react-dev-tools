@@ -1,0 +1,10 @@
+yarn-*.log
+src
+tsconfig.json
+README.md
+webpack.config.js
+assets
+scripts
+.github
+
+!.npmignore
